@@ -1,0 +1,64 @@
+.home {
+  height: 600px;
+  background: linear-gradient(rgba(10, 10, 23, 0.8), rgba(10, 10, 23, 0.8)),
+    url("/imgs/home-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.intro-container h1 {
+  color: #ffffff;
+  font-size: 2.8rem;
+  font-family: "Open Sans";
+  font-weight: 300;
+  margin: 100px 0px 100px 0px;
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-align: center;
+}
+
+.btn-download {
+  background: #6dbb00;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 50px;
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 4px;
+  font-size: 1.125rem;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  opacity: 0.9;
+  margin-bottom: 40px;
+}
+
+.btn-download::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: #6dbb00;
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  transform: rotate(45deg);
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.logos img {
+  width: 40px;
+}
+
+.logos:hover {
+  opacity: 1;
+}

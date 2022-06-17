@@ -1,0 +1,50 @@
+.menu-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  flex-wrap: wrap;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+  color: #ffffff;
+  font-weight: 300;
+  text-transform: uppercase;
+  cursor: pointer;
+  opacity: 0.9;
+  flex-wrap: wrap;
+}
+
+.menu-item-bold {
+  font-weight: 700;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-1 {
+  max-width: 60px;
+}
+
+.logo-2 {
+  height: 20px;
+}
+
+.download {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+  margin-top: 40px;
+  cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.about {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 100px;
+}
+
+.about-texts {
+  padding-top: 20px;
+}
+
+.about-image-1 img {
+  max-width: 100%;
+}
+
+.about-h2 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: #633f7e;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  margin-bottom: 40px;
+}
+
+.about-description {
+  font-size: 1.33rem;
+  line-height: 1.5;
+  text-align: left;
+  letter-spacing: 0.5px;
+  padding-bottom: 50px;
+}
+
+.btn-description {
+  background: #8a5aab;
+  text-align: center;
+  display: inline-block;
+  padding: 30px;
+  font-size: 1.125rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
